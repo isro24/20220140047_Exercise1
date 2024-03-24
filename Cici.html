@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="hero.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cici</title>
+</head>
+<body class="slide-in">
+    <div class="container">
+        <div class="judul-container">
+            <div class="judul">
+                <p class="judul-1">CICI</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <div class="Skin">
+                <img class="Skin1" src="CiciSkin.png" alt="CiciModel">
+            </div>
+        </div>
+        <div class="Teks-container">
+            <ul class="ul-Teks">
+                <h2 class="Teks">Ga Dapat Skin v:</h2>
+                <p class="Teks">Cici, sang Performer, adalah hero Fighter terbaru di Mobile Legends yang dijuluki "Yo-Yo Master"</p>
+                <p class="Teks">Dia memiliki kemampuan unik untuk menggunakan Yo-Yo sebagai senjatanya dan melakukan 
+                    berbagai gerakan akrobatik. Skill pasifnya, Performer's Delight, memberikan Cici Movement Speed 
+                    dan Spell Vamp saat memberikan damage.</p>
+                <p class="Teks">Skill 1, Yo-Yo Blitz, melemparkan Yo-Yo ke arah target, memberikan damage dan efek slow. 
+                    Skill 2, Bouyant Bounce, melompat ke arah target dan memberikan damage. Skill ultimate, Curtain Call, 
+                    menarik dua hero musuh ke arah Cici dan memberikan damage.</p>
+            </ul>
+        </div>
+        <button class= "costumButton" onclick="sweetAlert()">Cek Item</button>
+    </div>
+    <script>
+    function sweetAlert(){
+        Swal.fire({
+            title: "CICI",
+            text: "Items Recomanded Cici",
+            icon: "success",
+            imageUrl: "CiciItem.jpg",
+            imageWidth: 500,
+            imageHeight: 100
+        })
+    }
+    </script>
+</body>
+</html>

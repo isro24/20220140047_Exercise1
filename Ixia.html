@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="hero.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ixia</title>
+</head>
+<body class="slide-in">
+    <div class="container">
+        <div class="judul-container">
+            <div class="judul">
+                <p class="judul-1">IXIA</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="Skin">
+                <img class="Skin1" src="IxiaSkin1.webp" alt="IxiaModel">
+                <img class="Skin1" src="IxiaSkin2.jpg" alt="IxiaModel">
+            </div>
+        </div>
+        <div class="Teks-container">
+            <ul class="ul-Teks">
+                <h2 class="Teks">Skin Normal dan Starlight</h2>
+                <p class="Teks">Ixia, sang Sand Hunter, adalah hero Marksman terbaru di Mobile Legends yang dijuluki "Stargazer".</p>
+                <p class="Teks">Dia memiliki kemampuan unik untuk menembakkan energi Starlium melalui peralatan mesin 
+                    bioniknya. Skill pasifnya, Siphon Starlium, memungkinkan Ixia memulihkan HP saat menyerang musuh 
+                    dan meningkatkan Movement Speed saat tidak menyerang.</p>
+                <p class="Teks">Skill 1, Dual Arc, menembakkan dua beam energi ke arah target, memberikan damage dan 
+                    lifesteal. Skill 2, Star Helix, meluncurkan granat energi yang meledak dan memperlambat musuh. 
+                    Skill ultimate, Stellar Vortex, menciptakan area vortex yang memberikan damage dan menarik musuh 
+                    ke dalamnya.</p>
+            </ul>
+        </div>
+        <button class= "costumButton" onclick="sweetAlert()">Cek Item</button>
+    </div>
+    <script>
+        function sweetAlert(){
+            Swal.fire({
+                title: "IXIA",
+                text: "Items Recomanded Ixia",
+                icon: "success",
+                imageUrl: "IxiaItem.jpg",
+                imageWidth: 500,
+                imageHeight: 100
+            })
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

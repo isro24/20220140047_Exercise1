@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="hero.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy</title>
+</head>
+<body class="slide-in">
+    <div class="container">
+        <div class="judul-container">
+            <div class="judul">
+                <p class="judul-1">JOY</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="Skin">
+                <img class="Skin1" src="JoySkin1.webp" alt="JoyModel">
+                <img class="Skin1" src="JoySkin2.jpg" alt="JoyModel">
+            </div>
+        </div>
+        <div class="Teks-container">
+            <ul class="ul-Teks">
+                <h2 class="Teks">Skin Normal dan Elite</h2>
+                <p class="Teks">Joy, sang Electric Diva, adalah hero Mage/Assasin di Mobile Legends yang dijuluki "DJ of Light"</p>
+                <p class="Teks">Dia memiliki kemampuan unik untuk mengendalikan musik dan energi listrik. Skill pasifnya, 
+                    Humph, Joy's Angry!, meningkatkan Movement Speed dan Damage Reduction Joy saat memberikan damage 
+                    kepada musuh.</p>
+                <p class="Teks">Skill 1, Look, Leonin Crystal!, memanggil Leonin Crystal yang memberikan damage dan stun 
+                    kepada musuh. Skill 2, Meow, Rhythm of Joy!, menembakkan energi listrik ke arah target, memberikan 
+                    damage dan slow. Skill ultimate, Ha, Electrifying Beats!, menciptakan area energi listrik yang 
+                    memberikan damage dan knockback kepada musuh.</p>
+            </ul>
+        </div>
+        <button class= "costumButton" onclick="sweetAlert()">Cek Item</button>
+    </div>
+    <script>
+        function sweetAlert(){
+            Swal.fire({
+                title: "JOY",
+                text: "Items Recomanded Joy",
+                icon: "success",
+                imageUrl: "JoyItem.jpg",
+                imageWidth: 500,
+                imageHeight: 100
+            })
+        }
+        </script>
+</body>
+</html>

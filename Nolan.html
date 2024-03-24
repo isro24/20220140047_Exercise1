@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="hero.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nolan</title>
+</head>
+<body class="slide-in">
+    <div class="container">
+        <div class="judul-container">
+            <div class="judul">
+                <p class="judul-1">NOLAN</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="Skin">
+                <img class="Skin1" src="NolanSkin.jpg" alt="NolanModel">
+            </div>
+        </div>
+        <div class="Teks-container">
+            <ul class="ul-Teks">
+                <h2 class="Teks">Skin Normal</h2>
+                <p class="Teks">Nolan, sang Chrono Traveler, adalah hero Assassin terbaru di Mobile Legends yang dijuluki "Timekeeper"</p>
+                <p class="Teks">Dia memiliki kemampuan untuk memanipulasi ruang dan waktu dengan jam sakunya. 
+                    Skill pasifnya, Dimensional Rift, membuka celah di tanah yang memperlambat musuh.</p>
+                <p class="Teks">Skill 1, Expansion, menembakkan energi yang meledak dan memperlambat musuh. 
+                    Skill 2, Gauge, memperkuat serangan basic Nolan dan memberikan efek knockback. Skill ultimate, 
+                    Fracture, menciptakan portal waktu yang memungkinkan Nolan untuk teleportasi dan memberikan 
+                    damage besar.</p>
+            </ul>
+        </div>
+        <button class= "costumButton" onclick="sweetAlert()">Cek Item</button>
+    </div>
+    <script>
+        function sweetAlert(){
+            Swal.fire({
+                title: "NOLAN",
+                text: "Items Recomanded Nolan",
+                icon: "success",
+                imageUrl: "NolanItem.jpg",
+                imageWidth: 500,
+                imageHeight: 100,
+            })
+        }
+        </script>
+</body>
+</html>

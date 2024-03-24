@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="hero.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fredrin</title>
+</head>
+<body class="slide-in">
+    <div class="container">
+        <div class="judul-container">
+            <div class="judul">
+                <p class="judul-1">FREDRIN</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="Skin">
+                <img class="Skin1" src="FredrinSkin1.webp" alt="FredrinModel">
+                <img class="Skin1" src="FredrinSkin2.webp" alt="FredrinModel">
+                <img class="Skin1" src="FredrinSkin3.webp" alt="FredrinModel">
+            </div>
+        </div>
+        <div class="Teks-container">
+            <ul class="ul-Teks">
+                <h2 class="Teks">Skin Normal, Elite, dan Neoblast</h2>
+                <p class="Teks">Fredrinn, sang Guardian of Order, adalah hero Fighter terbaru di Mobile Legends yang dijuluki "Rogue Appraiser"</p>
+                <p class="Teks">Dia memiliki kemampuan unik untuk mengendalikan energi kristal dan berubah menjadi 
+                    formulir pertempuran. Skill pasifnya, Crystalline Armor, mengubah sebagian damage yang diterima 
+                    Fredrinn menjadi Energi Kristal, yang dapat diubah kembali menjadi HP.</p>
+                <p class="Teks">Skill 1, Piercing Strike, menusuk ke depan, memberikan damage dan efek slow. Skill 2, 
+                    Brave Assault, berlari ke arah target, memberikan damage dan efek knockback. Skill 3, 
+                    Energy Eruption, meledakkan Energi Kristal di sekitar Fredrinn, memberikan damage dan efek slow. 
+                    Skill ultimate, Appraiser's Wrath, berubah menjadi formulir pertempuran, meningkatkan damage dan 
+                    movement speed, dan memberikan efek crowd control.</p>
+            </ul>
+        </div>
+        <button class= "costumButton" onclick="sweetAlert()">Cek Item</button>
+    </div>
+    <script>
+        function sweetAlert(){
+            Swal.fire({
+                title: "Fredrin",
+                text: "Items Recomanded Fredrin",
+                icon: "success",
+                imageUrl: "FredrinItem.jpg",
+                imageWidth: 500,
+                imageHeight: 100
+            })
+        }
+        </script>
+</body>
+</html>
