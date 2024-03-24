@@ -15,25 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-window.addEventListener('DOMContentLoaded', function() {
-    const backButton = document.querySelector('.back-button');
-    if (backButton) {
-        backButton.addEventListener('click', function() {
-            navigateBack();
-        });
-    }
-});
-
-function navigateBack() {
-    const container = document.querySelector('.container');
-    container.classList.add('slide-out');
-
-    setTimeout(() => {
-        window.history.back();
-    }, 500); 
-}
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
     const images = document.querySelectorAll(".Image1");
